@@ -14,3 +14,11 @@ class Slime(Enemy):
 class Ogre(Enemy):
     def __init__(self):
         super().__init__(name="Ogre", hp = 20, damage = 5)
+
+class GiantSpider(Enemy):
+    def __init__(self):
+        super().__init__(name="Giant Spider", hp = 40, damage=5)
+
+class Dragon(Enemy):
+    def __init__(self):
+        super().__init__(name="Dragon", hp=100, damage=10)
