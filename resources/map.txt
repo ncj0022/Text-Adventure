@@ -1,8 +1,8 @@
-			LeaveCaveRoom	
-	Find5GoldRoom	EmptyCavePath	OgreRoom	
-		EmptyCavePath		
-		EmptyCavePath		
-SlimeRoom	EmptyCavePath	StartingRoom	EmptyCavePath	FindDaggerRoom
-		Find5GoldRoom		
-		EmptyCavePath		
-		SnakePitRoom		
+			Find5GoldRoom							
+	Find5GoldRoom	EmptyCavePath	OgreRoom							
+		EmptyCavePath		SnakePitRoom			FindSwordRoom			
+		EmptyCavePath	EmptyCavePath	EmptyCavePath	OgreRoom	SlimeRoom	GiantSpiderRoom	EmptyCavePath	DragonRoom	LeaveCaveRoom
+SlimeRoom	EmptyCavePath	StartingRoom	EmptyCavePath	FindDaggerRoom			HealRoom			
+		Find5GoldRoom		EmptyCavePath						
+		EmptyCavePath		EmptyCavePath						
+		SnakePitRoom		Find5GoldRoom						
