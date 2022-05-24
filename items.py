@@ -12,7 +12,7 @@ class Item():
 class Gold(Item):
     def __init__(self, amount):
         self.amount = amount
-        super().__init__(name="Gold", description="A round coin with {} stamped on the front.".format(str(self.amount), value=self.amount))
+        super().__init__(name="Gold", description="A round coin with {} stamped on the front.".format(str(self.amount)), value=self.amount)
 
 
 #Base class for all Weapons
@@ -37,3 +37,10 @@ class Dagger(Weapon):
                         description="A small dagger with some rust. Somewhat more dangerous than a rock.",
                         value=0,
                         damage=10)
+
+class Sword(Weapon):
+    def __init__(self):
+        super().__init__(name="Sword",
+                        description="A great sword found in the stone. Said to be the ultimate weapon and can slay anything",
+                        value = 0,
+                        damage=20)
